@@ -1,0 +1,46 @@
+%% coding: utf-8
+%%This is a basic article template.
+\documentclass{article}
+\usepackage{color}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue}
+\usepackage[top=1.25in, bottom=1.25in, left=1.25in, right=1.25in]{geometry}
+\usepackage[slantfont,boldfont]{xeCJK}
+\setCJKmainfont{AR PL UMing CN}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[R]{\slshape \leftmark}
+\fancyhead[L]{题目}
+\fancyfoot{}
+\fancyfoot[L]{\textcolor[rgb]{0.5,0.5,0.5}{Shanghai Infotm Micro-Electronics Co.,Ltd.}}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\begin{document}
+\begin{titlepage}
+% \title{题目}
+% 	\author{xecle}
+% 	\date{2013-4-29}
+% 	\maketitle
+\vspace*{140pt}
+\center{\Huge{题目}}
+\vspace*{50pt}
+\center{\Large{xecle}}
+\center{\large{2013-4-29}}
+\thispagestyle{empty}
+\end{titlepage}
+
+\tableofcontents
+\clearpage
+
+\section{标题}
+\subsection{子标题}
+内容
+\subsection{子标题}
+内容
+\subsubsection{子标题}
+内容
+
+\end{document}
